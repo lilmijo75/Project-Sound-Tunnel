@@ -1,0 +1,15 @@
+RTE/
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.lst
+*.crf
+*.o
+*.axf
+*.map
+*.htm
+*.lnp
+*.sct
+*.iex
+*.uvprojx.bak
