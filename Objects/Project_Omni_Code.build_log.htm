@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Sergio Tafolla, CSU Northridge, LIC=YA39H-W3B33-PCXJ8-3RK8U-0RQ7F-9AXIS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+C:\Users\User\Documents\ECE425_SandBox\Project_Omni_ECE_425_fft_MACH1\Project_Omni_ECE_425_fft\Project_Omni_Code_fft.uvprojx
+Project File Date:  12/04/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target_1'
+compiling main.c...
+linking...
+Program Size: Code=4844 RO-data=668 RW-data=0 ZI-data=3568  
+".\Objects\Project_Omni_Code.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.2.0.pack
+                ARM.CMSIS.6.2.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: GPIO Version: 1.0.0
+   * Component: Custom Version: 1.0.0
+   * Component: CORE Version: 6.1.1
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-Compiler.2.1.0.pack
+                ARM.CMSIS-Compiler.2.1.0
+                CMSIS Compiler extensions for Arm Compiler, GCC, Clang, and IAR Compiler
+   * Component: CORE Version: 1.1.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-DSP.1.16.2.pack
+                ARM.CMSIS-DSP.1.16.2
+                CMSIS Embedded Compute Library
+   * Component: DSP Variant: Source Version: 1.16.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Keil_v5\ARM\ARM\CMSIS-DSP\1.16.2\Include
+  C:\Keil_v5\ARM\ARM\CMSIS-DSP\1.16.2\PrivateInclude
+  C:\Keil_v5\ARM\ARM\CMSIS\6.2.0\CMSIS\Core\Include
+  C:\Keil_v5\ARM\ARM\CMSIS\6.2.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:GPIO:1.0.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_GPIO.h
+
+   * Component: ARM::CMSIS Driver:GPIO:Custom:1.0.0
+      Source file:   CMSIS\Driver\DriverTemplates\Driver_GPIO.c
+
+   * Component: ARM::CMSIS-Compiler:CORE:1.1.0
+      Source file:   source\armcc\retarget_io.c
+
+   * Component: ARM::CMSIS:CORE:6.1.1
+
+   * Component: ARM::CMSIS:DSP:Source:1.16.2
+      Source file:   Source\FastMathFunctions\FastMathFunctionsF16.c
+      Source file:   Source\SVMFunctions\SVMFunctionsF16.c
+      Source file:   Source\SupportFunctions\SupportFunctionsF16.c
+      Source file:   Source\InterpolationFunctions\InterpolationFunctionsF16.c
+      Source file:   Source\DistanceFunctions\DistanceFunctionsF16.c
+      Source file:   Source\BayesFunctions\BayesFunctionsF16.c
+      Source file:   Source\StatisticsFunctions\StatisticsFunctionsF16.c
+      Source file:   Source\TransformFunctions\TransformFunctions.c
+      Include file:  Include\arm_math_f16.h
+      Include file:  Include\arm_common_tables.h
+      Include file:  Include\arm_common_tables_f16.h
+      Source file:   Source\BasicMathFunctions\BasicMathFunctions.c
+      Source file:   Source\ComplexMathFunctions\ComplexMathFunctions.c
+      Include file:  Include\arm_const_structs.h
+      Source file:   Source\DistanceFunctions\DistanceFunctions.c
+      Source file:   Source\BayesFunctions\BayesFunctions.c
+      Source file:   Source\CommonTables\CommonTables.c
+      Source file:   Source\FilteringFunctions\FilteringFunctions.c
+      Include file:  Include\arm_math.h
+      Source file:   Source\QuaternionMathFunctions\QuaternionMathFunctions.c
+      Include file:  Include\arm_const_structs_f16.h
+      Source file:   Source\FastMathFunctions\FastMathFunctions.c
+      Source file:   Source\MatrixFunctions\MatrixFunctions.c
+      Source file:   Source\ControllerFunctions\ControllerFunctions.c
+      Source file:   Source\StatisticsFunctions\StatisticsFunctions.c
+      Source file:   Source\SupportFunctions\SupportFunctions.c
+      Source file:   Source\SVMFunctions\SVMFunctions.c
+      Source file:   Source\FilteringFunctions\FilteringFunctionsF16.c
+      Source file:   Source\CommonTables\CommonTablesF16.c
+      Source file:   Source\TransformFunctions\TransformFunctionsF16.c
+      Source file:   Source\MatrixFunctions\MatrixFunctionsF16.c
+      Source file:   Source\WindowFunctions\WindowFunctions.c
+      Source file:   Source\BasicMathFunctions\BasicMathFunctionsF16.c
+      Source file:   Source\InterpolationFunctions\InterpolationFunctions.c
+      Source file:   Source\ComplexMathFunctions\ComplexMathFunctionsF16.c
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\Source\system_TM4C123.c
+      Include file:  Device\Include\TM4C123\TM4C123.h
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
